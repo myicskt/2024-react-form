@@ -5,12 +5,39 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+
 }
+
+
+.myForm{
+  padding-left: 20px;
+  background-color: rgb(122, 162, 226);
+  margin-left: 20px;
+  list-style-type: none;
+  width: 50%;
+  align-items: left;
+  text-align: left;
+
+}
+.msgdisplsy{
+  background-color: rgb(184, 203, 225);
+  list-style-type: none;
+  width: 50%;
+  align-items: left;
+  text-align: left;
+  
+  
+}
+
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+form{
+  align-items:last baseline;
 }
 
 .App-header {
@@ -36,3 +63,4 @@
     transform: rotate(360deg);
   }
 }
+
